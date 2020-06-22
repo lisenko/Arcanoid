@@ -16,11 +16,37 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    brick.cpp \
+    brickpile.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    match.cpp \
+    movablesprite.cpp \
+    paddle.cpp \
+    playfield.cpp \
+    puck.cpp \
+    pucksupply.cpp \
+    rectangle.cpp \
+    sprite.cpp \
+    spritevector.cpp \
+    stationarysprite.cpp \
+    velocity.cpp
 
 HEADERS += \
-    mainwindow.h
+    brick.h \
+    brickpile.h \
+    mainwindow.h \
+    match.h \
+    movablesprite.h \
+    paddle.h \
+    playfield.h \
+    puck.h \
+    pucksupply.h \
+    rectangle.h \
+    sprite.h \
+    spritevector.h \
+    stationarysprite.h \
+    velocity.h
 
 FORMS += \
     mainwindow.ui
