@@ -3,13 +3,14 @@
 #include "sprite.h"
 #include "velocity.h"
 
-class MovableSprite: private Sprite
+class MovableSprite: public Sprite
 {
 public:
     void move();
     bool isMoving();
     void collideInto(Sprite sprite);
     MovableSprite();
+    MovableSprite(QString image, int x, int y);
 };
 
 #endif // MOVABLESPRITE_H

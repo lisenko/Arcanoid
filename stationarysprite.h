@@ -2,7 +2,7 @@
 #define STATIONARYSPRITE_H
 #include "sprite.h"
 
-class StationarySprite: private Sprite
+class StationarySprite: public Sprite
 {
 public:
     StationarySprite();

@@ -2,7 +2,7 @@
 #define PADDLE_H
 #include "movablesprite.h"
 
-class Paddle: private MovableSprite
+class Paddle: public MovableSprite
 {
 public:
     Paddle();

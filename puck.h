@@ -2,7 +2,7 @@
 #define PUCK_H
 #include "movablesprite.h"
 
-class Puck: private MovableSprite
+class Puck: public MovableSprite
 {
 public:
     Puck();
